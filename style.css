@@ -179,7 +179,7 @@ nav ul li a:hover {
 
 .fade-in {
   opacity: 0;
-  animation: fadeInAnimation 0.5s ease-in-out forwards;
+  animation: fadeInAnimation 0.9s ease-in-out forwards;
 }
 
 @keyframes fadeInAnimation {
@@ -285,14 +285,14 @@ nav ul li a:hover {
 
 .progress {
   height: 20px;
-  background-color: #f2f2f2;
+  background-color: whitesmoke;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .progress-value {
   height: 100%;
-  background-color: #5cb85c;
+  background-color: #0b3e6dd1;
   color: #fff;
   text-align: center;
   line-height:10px;
