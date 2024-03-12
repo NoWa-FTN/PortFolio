@@ -1,4 +1,4 @@
-console.log('Bonjour, JavaScript !');
+console.log('Bonjour');
 
 
 window.addEventListener('scroll', function() {
