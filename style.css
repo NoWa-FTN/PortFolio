@@ -4,11 +4,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.3s ease;
-}
-
-.hero:hover{
-  transform:scale(1.01);
 }
 
 .hero-background {
@@ -51,11 +46,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: transform 0.3s ease;
-}
-
-.hero2:hover{
-  transform:scale(1.01);
 }
 
 .hero-background2 {
@@ -68,7 +58,6 @@
   background-position: center;
   background-repeat: no-repeat;
   opacity: 1;
-
 }
 
 .hero-overlay2 {
@@ -95,12 +84,6 @@
   margin-right: 5.5%;
   margin-top: 35px;
   margin-bottom:60px;
-  opacity: 1;
-  transition: transform 0.3s ease;
-}
-
-.content:hover{
-  transform:scale(1.01);
 }
 
 body.hide-content .content {
@@ -111,11 +94,12 @@ body {
   background-color: #ffffff;
   color: #181717;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   width: 100%;
   padding: 0;
   margin: 0;
   height: 100vh;
+  text-align: center;
 }
 
 nav {
@@ -160,11 +144,6 @@ nav ul li a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: transform 0.3s ease;
-}
-
-.menu-bar:hover{
-  transform:scale(1.01);
 }
 
 .menu-bardown {
@@ -172,11 +151,6 @@ nav ul li a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: transform 0.3s ease;
-}
-
-.menu-bardown:hover{
-  transform:scale(1.01);
 }
 
 .menu-item{
@@ -311,6 +285,10 @@ nav ul li a:hover {
 
 .text-column{
   vertical-align: top;
+}
+
+.text-table{
+  text-align: center;
 }
 
 .pdf-button {
