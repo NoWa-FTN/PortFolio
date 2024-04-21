@@ -428,8 +428,104 @@ body, html {
   padding: 0;
   height: 100%;
 }
+
 iframe {
   width: 100%;
   height: 100%;
   border: none; /* Supprimer la bordure de l'iframe */
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style pour la balise vidéo */
+video {
+  border-radius: 10px; /* Pour arrondir les coins de la vidéo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Pour ajouter une ombre légère */
+}
+
+/* Style pour les contrôles de la vidéo */
+video::-webkit-media-controls {
+  background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+  color: #ffffff; /* Couleur du texte */
+  border-radius: 10px; /* Pour arrondir les coins des contrôles */
+}
+
+/* Style pour les boutons des contrôles */
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-pause-button {
+  color: #0056b3; /* Couleur du bouton de lecture/pause */
+}
+
+/* Style pour la barre de progression */
+video::-webkit-media-controls-seek-back-button,
+video::-webkit-media-controls-seek-forward-button {
+  color: #0056b3; /* Couleur des boutons de défilement */
+}
+
+/* Style pour le curseur de la barre de progression */
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  color: #0056b3; /* Couleur du texte de la barre de progression */
+}
+
+img{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-styled {
+  border: 10px solid #007bff; /* Bordure bleue de 2px */
+}
+
+/* Style pour le bouton */
+#myBtn {
+  display: none; /* Par défaut, le bouton est caché */
+  position: fixed; /* Le bouton reste fixe par rapport à la fenêtre du navigateur */
+  bottom: 20px; /* Distance de 20px à partir du bas */
+  right: 20px; /* Distance de 20px à partir de la droite */
+  z-index: 99; /* Pour que le bouton soit au-dessus de tout le reste */
+  background-color: #366392; /* Couleur de fond du bouton */
+  color: #ffffff; /* Couleur du texte */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  padding: 10px 20px; /* Espacement interne */
+  cursor: pointer; /* Curseur de souris pointer */
+  transition: opacity 1.1s ease; /* Ajouter une transition en douceur */
+}
+
+/* Style pour le bouton au survol de la souris */
+#myBtn:hover {
+  background-color: #0056b3; /* Couleur de fond du bouton au survol */
 }

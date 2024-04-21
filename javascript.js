@@ -92,3 +92,28 @@ fadeElements.forEach(element => {
   fadeInObserver.observe(element);
 });
 
+// Fonction pour afficher ou cacher le bouton en fonction du défilement
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// Fonction pour défilement fluide vers le haut de la page
+function scrollToTop() {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 8);
+  }
+}
+
+// Fonction pour retourner en haut de la page lorsque le bouton est cliqué
+function topFunction() {
+  scrollToTop();
+}
+
