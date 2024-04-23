@@ -116,13 +116,3 @@ function scrollToTop() {
 function topFunction() {
   scrollToTop();
 }
-
-// Détection du survol de la souris pour l'effet de balayage
-const hero = document.querySelector('.hero');
-hero.addEventListener('mouseover', function() {
-  hero.classList.add('hover');
-});
-hero.addEventListener('mouseout', function() {
-  hero.classList.remove('hover');
-});
-

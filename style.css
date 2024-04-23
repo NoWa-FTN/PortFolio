@@ -183,6 +183,21 @@ nav ul li a:hover {
   transform: scale(1.075);
 }
 
+.profile-image {
+  width: 200px; /* Largeur de l'image */
+  height: 200px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rendre le cadre rond */
+  object-fit: cover; /* Empêche la déformation de l'image */
+  margin-top: 5px; /* Ajustement de la marge supérieure */
+  margin-left: 35%;
+
+}
+
+.img-bar {
+  margin-right: 10px; /* Espacement entre l'image et les autres éléments du menu */
+  
+}
+
 .menu-bar {
   top: 0px;
   width: 100%;
