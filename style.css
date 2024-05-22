@@ -135,7 +135,7 @@ body.hide-content .content {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: rgb(218, 218, 218);
   color: #181717;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -556,7 +556,7 @@ video::-webkit-media-controls-seek-forward-button {
 video::-webkit-media-controls-timeline,
 video::-webkit-media-controls-current-time-display,
 video::-webkit-media-controls-time-remaining-display {
-  color: #0056b3; /* Couleur du texte de la barre de progression */
+  color: whitesmoke; /* Couleur du texte de la barre de progression */
 }
 
 .img{
