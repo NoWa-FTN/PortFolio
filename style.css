@@ -39,8 +39,8 @@
 /* Effet de balayage au survol de la souris */
 .hero:hover .background {
   background-color: #0056b3; /* Nouvelle couleur de fond */
-}
 
+}
 
 .hero {
   position: relative;
@@ -60,6 +60,7 @@
   background-position: center;
   background-repeat: no-repeat;
   opacity: 1;
+
 }
 
 .hero-background img {
@@ -531,6 +532,8 @@ input[type="submit"]:hover {
 video {
   border-radius: 10px; /* Pour arrondir les coins de la vidéo */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Pour ajouter une ombre légère */
+  width: 70%;
+  height: 40%;
 }
 
 /* Style pour les contrôles de la vidéo */
@@ -587,4 +590,23 @@ video::-webkit-media-controls-time-remaining-display {
 /* Style pour le bouton au survol de la souris */
 #myBtn:hover {
   background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
+
+.btn-esp{
+  background-color: #2d62e7;
+  color:whitesmoke;
+  padding:20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.6s ease;
+  margin-left: 18%;
+}
+
+.btn-esp:hover {
+  background-color: #6994ff;
 }

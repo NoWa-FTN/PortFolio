@@ -116,3 +116,11 @@ function scrollToTop() {
 function topFunction() {
   scrollToTop();
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  var link = document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/png';
+  link.href = 'img/determination.png';
+  document.head.appendChild(link);
+});
