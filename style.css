@@ -272,6 +272,11 @@ nav ul li a:hover {
   margin-left: 9%;
 }
 
+.timeline:hover{
+  transition: transform 0.7s ease;
+  transform: scale(1.030);
+}
+
 .timeline-item {
   position: relative;
   padding: 14px;
@@ -368,6 +373,8 @@ nav ul li a:hover {
 
 .pdf-button:hover {
   background-color: #6994ff;
+  transition: transform 0.7s ease;
+  transform: scale(1.075);
 }
 
 .dark-theme {
@@ -584,12 +591,13 @@ video::-webkit-media-controls-time-remaining-display {
   border-radius: 5px; /* Coins arrondis */
   padding: 10px 20px; /* Espacement interne */
   cursor: pointer; /* Curseur de souris pointer */
-  transition: opacity 1.1s ease; /* Ajouter une transition en douceur */
 }
 
 /* Style pour le bouton au survol de la souris */
 #myBtn:hover {
   background-color: #0056b3; /* Couleur de fond du bouton au survol */
+  transition: transform 0.7s ease;
+  transform: scale(1.075);
 }
 
 .btn-esp{
@@ -609,8 +617,20 @@ video::-webkit-media-controls-time-remaining-display {
 
 .btn-esp:hover {
   background-color: #6994ff;
+  transition: transform 0.7s ease;
+  transform: scale(1.075);
 }
 
 .imgex{
   margin-left: 7%;
+}
+
+.td-ex:hover{
+  transition: transform 0.7s ease;
+  transform: scale(1.075);
+}
+
+.img-ex{
+  transition: transform 0.7s ease;
+  transform: scale(1.075);
 }
