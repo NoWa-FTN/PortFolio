@@ -102,20 +102,20 @@
 }
 
 .hero-text .content-title{
-  font-size: 50px;
-  padding: 10px;
+  font-size: 45px;
+  padding: 5px;
 }
 
 .hero-text .content {
   margin-top: 5%;
-  padding: 10px;
-  font-size: 30px;
+  padding: 7px;
+  font-size: 25px;
   /* Ajoutez d'autres styles selon vos besoins */
 }
 
 .hero2{
   position: relative;
-  height: 86.3%;
+  height: 86%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
